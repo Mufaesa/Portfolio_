@@ -1,0 +1,80 @@
+.container { position:relative; padding:0 0 0 55px; }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar {
+    width:10%;
+    height: 100vh;
+    display: inline-block;
+    background-color: #333;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Open Sans";
+    position: fixed;
+}
+
+#content {
+    width:90%;
+    height:200vh;
+    display: inline-block;
+    background-color: #000;
+    float: right;
+}
+
+#parallex{
+    background-image: url(images/wijdfoto.jpg);
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    display: block;
+    height: 10%;
+    overflow: hidden;
+    padding-top: 30%;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #999;
+}
+
+#home{
+    height: 300px;
+    background-color: aqua;
+}
+#about{
+    height: 300px;
+    background-color: chartreuse;
+}
+#projects{
+    height: 300px;
+    background-color: green;
+}
+#contact{
+    height: 300px;
+    background-color: peru;
+}
+
+
+footer{
+    display: inline-block;
+    width:90%;
+}
+
+#socialMedia{
+    display: inline-block;
+    float: left;
+    color: white;
+}
